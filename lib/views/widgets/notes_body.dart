@@ -4,7 +4,6 @@ import 'package:note_app/views/widgets/notes_list_view.dart';
 
 class NotesBody extends StatelessWidget {
   const NotesBody({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -13,10 +12,9 @@ class NotesBody extends StatelessWidget {
         children: [
           SizedBox(height: 50),
           CustomAppBar(),
-          Expanded(child: Padding(
-            padding: const EdgeInsets.only(bottom: 12.0),
+          Expanded(
             child: NotesListView(),
-          )),
+          ),
         ],
       ),
     );
