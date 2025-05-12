@@ -3,8 +3,8 @@ import 'package:note_app/note_icon_data.dart';
 import 'package:note_app/views/widgets/notes_body.dart';
 import 'widgets/add_note_bottom_sheet.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class NotesView extends StatelessWidget {
+  const NotesView({super.key});
 
   @override
   Widget build(BuildContext context) {

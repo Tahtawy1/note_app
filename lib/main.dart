@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:device_preview/device_preview.dart';
-import 'package:note_app/views/home_page.dart';
+import 'package:note_app/views/notes_view.dart';
 
 // void main() {
 //   runApp(const NoteApp());
@@ -24,7 +24,7 @@ class NoteApp extends StatelessWidget {
         scaffoldBackgroundColor: const Color.fromARGB(255, 47, 49, 49),
         fontFamily: 'Poppins',
       ),
-      home: HomePage(),
+      home: NotesView(),
     );
   }
 }
