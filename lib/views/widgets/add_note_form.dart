@@ -38,6 +38,7 @@ class _AddNoteformState extends State<AddNoteform> {
           ),
           SizedBox(height: 32),
           CustomButton(
+            isLoading: State is AddNoteLoading ? true : false,
             onTap: () {
               if (_formKey.currentState!.validate()) {
                 _formKey.currentState!.save();
